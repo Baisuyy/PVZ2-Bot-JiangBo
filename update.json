@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "versionCode": 10000,
-  "apkUrl": "",
-  "releaseNotes": "初始版本",
-  "publishedAt": "2026-07-24T00:00:00Z"
+  "version": "1.0.2",
+  "versionCode": 10002,
+  "apkUrl": "https://github.com/Baisuyy/PVZ2-Bot-JiangBo/releases/download/v1.0.2/PVZ2-Support-1.0.2.apk",
+  "releaseNotes": "• 540751c ci: gh release create 添加 --target main 在 Python 仓库创建 tag\n• 8b4bacd revert: 回退 eu 加密密钥为 EU_SECRET, 修复 V206 返回 20001\n• c49a033 ci: 用 gh CLI 替换已弃用的 actions/create-release 和 upload-release-asset\n• 1ef17ec feat: 应用内更新检测功能\n• 9b557ae fix: eu 加密密钥对齐 cloud_client.py 权威版\n• 343bf1f fix: AccountsScreen pagerKey 使用 vararg 版 remember (Compose 无4参数版本)\n• 3d8eb26 fix: 修复数据清除/账号列表刷新/版本号三个问题\n• abf1eee fix: V722/V733 加回 pi 字段,修复 10306 错误\n• e1837dc revert: 回退 like 任务前置 V733 (服务器不检查是否游玩)\n• 524b47d fix: 点赞前先发 V733(模拟游玩),修复 V722 返回 10306\n• ead9d99 fix: 清理编译警告\n• ff94678 fix: 恢复 V206 的 pr/s 字段\n• 1d1f1ce feat: 对齐 Python simple_like.py 点赞链路\n• df6c821 Add files via upload\n• fbcfb19 Add files via upload\n• acceedf feat: 添加 V303 加载进度,调整激活流程顺序与 Python 对齐\n• 217ac73 debug: V722/V733 添加解密内容响应日志\n• cbde30b revert: 回退 eu 密钥为 EU_SECRET (V900 返回 20001 证明之前是错的)\n• d7c1e8c fix: eu header 加密密钥改为 chainState,与 Python 实现对齐\n• 74a9a87 fix: pi 为空时用 ui 兜底 + 添加 V202/V900 解密内容日志\n• c490261 debug: 添加 V722/V733 调试日志,追踪 10306 根因\n• 39a9266 fix: V722/V733 payload 对齐 Python 实现\n• c30c67f fix: V722 点赞也补充 pi 参数\n• 582503c fix: 修复编译错误\n• dba6766 fix: 账号任务成功后不再标记为\"已使用\"",
+  "publishedAt": "2026-07-24T09:15:17Z"
 }
