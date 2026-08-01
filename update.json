@@ -1,7 +1,7 @@
 {
-  "version": "1.2.0",
-  "versionCode": 10200,
-  "apkUrl": "https://github.com/Baisuyy/PVZ2-Bot-JiangBo/releases/download/v1.2.0/PVZ2-Support-1.2.0.apk",
-  "releaseNotes": "• 2da9d4f ci: 移除 build.yml 的 artifact 上传, 规避配额超限\n• 4d59d6e feat(capture): 优化抓包页面显示与状态响应\n• aa90c6a fix(proxy): 删除冗余 getCaCertFile 解决 JVM 签名冲突\n• b39811f fix(proxy): 实现 HTTPS MITM 的 SSLServerSocket 桥接方案\n• e1c58fb fix(proxy): 修正 SSLSocket 创建方式\n• 89d3126 feat(proxy): 添加抓包解密功能分支\n• 9b4ba67 debug(v722): V206 加解密内容日志, 排查 chainState 是否推进\n• a68bc07 fix(login): 加浏览器伪装头解决 4399 返回注册页面问题\n• c938f8a ci: 添加 Codemagic 云端构建配置 (500 分钟/周免费)\n• 61daafc fix: 4399 登录加 cookie + V722 点赞前加 V900/V206 激活\n• dc181a4 fix(v722): 点赞前先 V733 游玩, 对齐真实客户端流程\n• 9621dfa fix(v722): 用 V733(t:3) 替代 V736 初始化新账号无尽存档\n• dddb9e5 feat(login): 完整输出登录响应日志 + 批量注册页加复制日志按钮\n• 9c8756f fix(ocr): 修复验证码图片过小导致 ML Kit 识别失败\n• 1a402e0 fix(ui): 修复批量注册/任务页日志列表并发修改崩溃\n• 3e2b056 ci(build): artifact 上传加 continue-on-error 避免阻塞构建\n• 427b305 feat(v722): t 值参数化以排查 40024 错误\n• 24c52b2 Add files via upload\n• b7f004d ci: 恢复 artifact 上传, 移除 B2 配置\n• a227879 docs: 重写 README, 添加完整本地构建指南\n• 0c0a871 ci: Release artifact 上传改为 continue-on-error, 避免配额超限阻塞 Release\n• f4f74c0 ci: 改用 Backblaze B2 上传 APK (免费 10GB 无需绑卡)\n• 13743f5 ci: 改用 Cloudflare R2 上传 APK, 完全绕开 GitHub Actions 配额\n• 6cde01d ci: 仅 tag 推送时上传 artifact, 普通 push 只验证编译\n• 60b9838 feat: 重构批量注册流程 + 账号管理页一键激活\n• 5cc265f chore(ci): 添加 artifact retention-days 防止 Actions 配额爆满\n• 1c75cc4 fix: 激活链路对齐 HAR 真实抓包 V900→V206→V312 (去掉 V303)\n• 0fef566 fix: 激活链路对齐权威版 activate_client.py 顺序 V206→V900→V303→V312\n• bc42985 fix: 任务链路补充 V303 加载进度,修复 V722 点赞返回 40024",
-  "publishedAt": "2026-07-31T22:29:08Z"
+  "version": "1.2.1",
+  "versionCode": 10201,
+  "apkUrl": "https://github.com/Baisuyy/PVZ2-Bot-JiangBo/releases/download/v1.2.1/PVZ2-Support-1.2.1.apk",
+  "releaseNotes": "• abf9df4 fix(capture): 修复 VPN 编译错误 (companion 冲突/enum 位置/TextButton 导入)\n• 16b992f feat(capture): 新增 VPN 抓包方案 + 证书导出功能",
+  "publishedAt": "2026-08-01T02:16:17Z"
 }
